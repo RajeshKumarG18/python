@@ -1,0 +1,15 @@
+Date: 23/5/2025
+Time: 16:51
+Phone Number: +917975044149
+Message: Hello, this is an automated message sent using Python!
+--------------------
+Date: 23/5/2025
+Time: 17:1
+Phone Number: +917676286873
+Message: Hello, this is an automated message sent using Python Hi Vachan C!
+--------------------
+Date: 23/5/2025
+Time: 17:8
+Phone Number: +917975044149
+Message: Hello, this is an automated message sent using Python Hi Vachan C!
+--------------------

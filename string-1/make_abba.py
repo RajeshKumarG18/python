@@ -11,4 +11,4 @@ for i in [a, b, b, a]:
     if i:
         result += i
 return result
-return ('', '')
+return ('', '') + str

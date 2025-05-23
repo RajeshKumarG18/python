@@ -10,4 +10,4 @@ def extra_end(str):
 for i in range(3):
     if str:
         result += str[-2:]
-    return result
+return result

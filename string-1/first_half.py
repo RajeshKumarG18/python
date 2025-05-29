@@ -10,3 +10,4 @@ def first_half(str):
     for a in range(first_half): 
         result += str[a]
     return result
+    return ('') + str

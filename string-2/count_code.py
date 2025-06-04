@@ -7,6 +7,6 @@
 def count_code(str):
   int = 0
   for ele in range(len(str)-3):
-    if str[ele:ele + 2] == "co" and str[ele + 3] == "e":
+    if str[ele:ele+2] == "co" and str[ele+3] == "e":
       int += 1
   return int

@@ -1,7 +1,7 @@
 a = 10              # integer(int)
 print(a)
 
-b = 2.18             # floating point(float)
+b = 2.15             # floating point(float)
 print(b)
 
 c = 1 + 3.1j        # complex number(complex)

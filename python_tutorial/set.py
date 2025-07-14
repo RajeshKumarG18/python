@@ -14,7 +14,7 @@ print(my_set) # Output: {1, 2, 4, 5}
 # Checking membership
 # Set operations
 set_a = {1, 2, 3}
-set_b = {3, 4, 5}
+set_b = {3, 4, 6, 5}
 
 union_set = set_a | set_b
 print(union_set) # Output: {1, 2, 3, 4, 5}

@@ -9,7 +9,7 @@ height_m2 = 6
 weight_kg2 = 80
 
 name3 = "CV Raman"
-height_m3 = 3
+height_m3 = 5.5
 weight_kg3 = 72
 
 def bmi_calculator(name, height_m, weight_kg):

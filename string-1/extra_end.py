@@ -7,7 +7,7 @@
 def extra_end(str):
     result = ''
     i = range(3)
-for i in range(3):
-    if str:
-        result += str[-2:]
-return result
+    for i in range(3):
+        if str:
+            result += str[-2:]
+    return result

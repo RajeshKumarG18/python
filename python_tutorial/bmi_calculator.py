@@ -5,7 +5,7 @@ height_m1 = 4
 weight_kg1 = 70
 
 name2 = "Shyam"
-height_m2 = 5
+height_m2 = 6
 weight_kg2 = 80
 
 name3 = "CV Raman"

@@ -1,0 +1,173 @@
+<< Python Task 1: Check if a number is even. >>
+
+
+>> Junior level python coding:
+
+> The Code:
+
+number = 4
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
+
+>> Senior level python coding:
+
+> The Code:
+
+number = 4
+print("Even" if number % 2 == 0 else "Odd")
+
+
+
+
+
+
+
+
+<< Python Task 2: Find a longest word. >>
+
+
+>> Junior level python coding:
+
+> The Code:
+
+def find_longest_word(sentence):
+    words = sentence.split()
+    longest_word = ""
+    for word in words:
+        if len(word) > len(longest_word):
+            longest_word = word
+    return longest_word
+
+
+
+>> Senior level python coding:
+
+> The Code:
+
+def find_longest_word(sentence):
+    return max(sentence.split(),
+    key=len, default="")
+
+
+
+
+
+
+
+
+>> Basic Python Code:
+
+> The Code:
+
+arr = [64, 34, 25, 12, 22, 11, 90]
+bubble_sort(arr)
+print("Sorted array:", arr)
+
+
+
+
+
+
+
+
+# print() examples sets
+
+Example 1:
+
+> The Code:
+
+a = 3+2
+b = "string"
+print(b)
+
+// Output: string
+
+
+Example 2:
+
+> The Code:
+
+a = 3+2
+b = "string"
+print(b+"ing")
+
+// Output: stringing
+
+
+Example 3:
+
+> The Code:
+
+a = 3+2
+b = "string"
+print(b+b)
+
+// Output: stringstring
+
+
+Example 4:
+
+> The Code:
+
+a = 3+2
+b = "string"
+print(b+a)
+
+// Output: TypeError
+
+
+Example 5:
+
+> The Code:
+
+a = 3+2
+b = "string"
+print(b+str(a))
+
+// Output: string5
+
+
+Example 6:
+
+> The Code:
+
+a = 3+2
+b = "string"
+print(len(b+str(a)))
+
+// Output: 7
+
+
+Example 8:
+
+> The Code:
+
+a = "string"
+b = a[]
+print()
+
+// Output: TypeError
+
+
+Example 9:
+
+> The Code:
+
+a = "string"
+b = a[0]
+print(b)
+
+// Output: s
+
+
+Example 10:
+
+> The Code:
+
+a = "string"
+for s in a:
+    print(i)

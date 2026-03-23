@@ -1,0 +1,95 @@
+>> Python Course:
+
+
+Steps to start with python course:
+
+
+Step 1: Installing Python:
+                            1. Go to any browser, and search for https://www.python.org/downloads/
+                            2. Next, at below there will be 'Looking for Python with a diffrent OS? Python for Windows, Linux/UNIX, Mac OS X, Other.
+                            3. Choose your Operating System that you're using.
+                            4. Next, click on 'Download Python 3.6.3' button because it is the Latest version of Python.
+                            5. Then, after the download complete like all setup process, then you are ready to use the Latest Version of Python
+                                
+Step 2: To write python code:
+                                1. There are some special text editors that are designed to write the python code.
+                                2. They are called as IDE, which stands for 'Integrated Development Environment'.
+                                3. It is a special environment, which helps to run and execute our python code.
+
+Step 3: Installing PyCharm:
+                            1. Go to any browser, and search for https://www.jetbrains.com/pycharm/
+                            2. Next, click on the 'DOWNLOAD NOW' button below.
+                            3. Next, there will be two versions of PyCharm, select Community Version(Free & Open Source) DOWNLOAD button.
+                            4. Then, after the download complete, like all setup process, you will be ready to use the Community Version(Free & Open Source) of PyCharm.
+
+Step 4: Setup & Hello World:
+                            1. PyCharm:
+                                        Steps to setup PyCharm:
+                                                               Step 1: Go to Configure option below and select 'Preferences'.
+                                                               Step 2: And next, the 'Appearance & Behavior' interface will be shown on the screen.
+                                                               Step 3: Next, open Appearance & Behavior and below click on Appearance.
+                                                               Step 4: And then in Theme: change the theme to 'Dracula'.
+                                                               Step 5: Next, below, click on 'Apply' button and at the end Ok button.
+                                                               Step 6: Next, click on 'Create New Project' Button and then at the top Location section, name your project.
+                                                               Step 7: And next, in the Interpreter section, select your Latest Version of Python that you downloaded.
+                                                               Step 8: And then, below at the end click on 'Create' button, it will create a project.
+                                                               Step 9: Next, at your created draft folder, right click and select New, and select Python File.
+                                                               Step 10: Name the Python File as 'app' and then click OK button.
+
+Step 5: How to start with Replit Application based IDE:
+                                                         1. Go to browser, and search for https://replit.com
+                                                         2. Next, Click on Sign In button on the Navigation Bar, and 'Sign In With Google'
+                                                         3. Next, Go to Folder Icon, there you will see your REPLs or projects created.
+                                                         4. REPL stands for Read, Evaluate, Print, and Loop.
+                                                         5. To come out from REPL in any CLI(Command Line Interface) then the command line will be: exit()
+                                             
+
+Step 6: Write the Code on the created Python File:
+                                                  The Code:
+                                                           print("Hello World")   ---> It is a basic python program.
+                                                  
+                                                  To Run the Code:
+                                                                  Go to Run on the top and select run, it will show which file to run, select the Pyhton File that is created as app and then the output will be shown in the Console.
+
+Step 7: Drawing a Shape:
+                        >> Write a Basic Python Program:
+                                                        The Code:
+                                                                 print("   /|\")
+                                                                 print("  / | \")
+                                                                 print(" /  |  \")
+                                                                 print("/___|___\")
+
+Step 8: Variables and Data Types:
+
+>> A Variable is just basically a container, where we can store certain data values.
+
+>> A string is basically stores a plain text, and string is a datatype in python.
+
+
+>> Write a Python variable program:
+                                   The Code:
+
+                                // The easy way to control and manage the data that is inside of the program.
+                                //With Variables, you can also modify thier values.
+
+                                // Using a variable in order to store.
+                                // Creating a varialble.              
+                                // Type the name of the variable, that i want to create.
+                                // Creating a variable called character name and putting a value inside of this variable.
+                                            
+                                            character_name = "Python"
+
+                                // Replacing the charcter's name inside the story with that variable.
+                                // To put variable inside the print statement.
+
+                                            print("There once was a programming language named " + character_name + ", ")
+                                            print("It is was a innovative programming language. ")
+
+                                // Assigning a new value to one of these variables 
+
+                                            character_name = "JavaScript"
+
+                                            print("It was a popular programming language " + character_name + ", ")
+                                            print("but didn't like the programming language for young ages.")
+
+

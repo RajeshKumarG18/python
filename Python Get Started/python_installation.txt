@@ -1,0 +1,45 @@
+Topic: How to install python from the browser:
+
+
+Step 1: Open a browser.
+
+Step 2: Go to search engine and type the official website url of python, https://www.python.org/
+
+Step 3: The website page will directly be shown on the screen.
+
+Step 4: Then, click on the 'Downloads'.
+
+Step 4: And then click on 'Download Python 3.14.3' button.
+
+Step 5: Next step, open Terminal by the short key as 'Ctrl + Alt + T'.
+
+Step 6: And type the command as 'cd Downloads/'
+
+Step 7: And then type 'ls'.
+
+Step 8: Next, type 'tar -xvf Python-3.12.2.tgz'
+
+Step 9: And next, type 'cd cd Python-3.12.2' to extract the file.
+
+Step 10: Next install the dependencies by giving the each commnads:
+                                                                   sudo apt update
+                                                                   sudo apt install build-essential zlib1g-dev \
+                                                                   libncurses5-dev libgdbm-dev libnss3-dev \
+                                                                   libssl-dev libreadline-dev libffi-dev \
+                                                                   libsqlite3-dev wget libbz2-dev -y
+
+Step 11: Next, configure the build by typing the command as:'./configure --enable-optimizations'.
+
+Step 12: And then type the command as: 'make'.
+
+Step 13: Next, install python by typing the command as: 'sudo make altinstall'.
+
+Step 14: And next step check whether it is installed it correctly by typing the command as: 'python3.12 --version'.
+
+Step 15: Next check if pip is installed with python, by typing the command: 'python3.12 -m pip --version'.
+
+Step 16: If the pip is missing then type the command as: 'python3.12 -m ensurepip --upgrade'.
+
+Step 17: If we want to use it as a default then type the command as: 'sudo update-alternatives --install /usr/bin/python3 python3 /usr/local/bin/python3.12 1'.
+
+Step 18: And next finally, check the python installation by typing the command as: 'which python3.12'.
